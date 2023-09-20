@@ -48,6 +48,7 @@ ListenAddress <%= listen %>
     <%= key %> <%= bool2str(a) %>
     <%- end -%>
     <%- end -%>
+    <%- end -%>
     <%- elsif value != '' && value != nil -%>
     <%= key %> <%= bool2str(value) %>
     <%- end -%>
@@ -66,6 +67,5 @@ ListenAddress <%= listen %>
 <%- end -%>
 <%- elsif v != nil and v != '' -%>
 <%= k %> <%= bool2str(v) %>
-<%- end -%>
 <%- end -%>
 <%- end -%>
